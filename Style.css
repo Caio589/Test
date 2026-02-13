@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.bg {
+  height: 100vh;
+  background: linear-gradient(135deg, #1e90ff, #00c896);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* LOGIN */
+.login-box {
+  background: #fff;
+  padding: 40px;
+  width: 100%;
+  max-width: 360px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,.2);
+}
+
+.login-box h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.login-box h1 span {
+  color: #00c896;
+}
+
+.login-box p {
+  color: #777;
+  margin-bottom: 25px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #187bcd;
+}
+
+.login-box small {
+  display: block;
+  margin-top: 20px;
+  color: #aaa;
+}
+
+/* APP */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  background: #111827;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar nav a {
+  display: block;
+  padding: 12px;
+  color: #cbd5e1;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.sidebar nav a:hover,
+.sidebar nav .active {
+  background: #1e90ff;
+  color: #fff;
+}
+
+/* CONTENT */
+.content {
+  flex: 1;
+  padding: 30px;
+  background: #f1f5f9;
+}
+
+.content h1 {
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.05);
+}
+
+.card span {
+  font-size: 22px;
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+/* BOX */
+.box {
+  background: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 12px;
+}
